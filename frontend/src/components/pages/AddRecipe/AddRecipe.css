@@ -1,0 +1,36 @@
+#upload{
+    width: 150px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.body{
+    padding: 20px;
+    border: black solid 1px;
+    width:60%;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    padding: 18px 20px;
+    border-radius: 5px;
+    margin: 40px;
+    width: 400px;
+}
+
+select{
+    width: 200px;
+    height: 50px;
+}
+#addproduct{
+    padding: 20px 50px;
+    font-size: large;
+    background-color: teal;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}

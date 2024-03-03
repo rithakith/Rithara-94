@@ -3,7 +3,6 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import AddRecipe from './components/pages/AddRecipe/AddRecipe'
 import Homepage from './components/pages/Homepage/Homepage'
-import MyProfile from './components/pages/MyProfile/MyProfile'
 import AllRecipes from './components/pages/AllRecipes/AllRecipes'
 import LoginPage from './components/pages/LoginPage/LoginPage'
 import './App.css'
@@ -19,7 +18,6 @@ function App() {
         <Route path='/' element={<Homepage/>}/>
         <Route path='/recipes' element={<AllRecipes/>}/>
         <Route path='/addrecipe' element={<AddRecipe/>}/>
-        <Route path='/myprofile' element={<MyProfile/>}/>
         <Route path='/login' element={<LoginPage/>}/>
       </Routes>
       </BrowserRouter>
