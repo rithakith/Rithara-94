@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+ul {
+  background-color: rgb(4, 95, 95);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+ul li {
+  padding: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+#login {
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 15%;
+}
+
